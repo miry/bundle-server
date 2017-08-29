@@ -1,0 +1,18 @@
+name: bundle-server
+version: 0.1.0
+
+authors:
+  - Michael Nikitochkin <miry.sof@gmail.com>
+
+targets:
+  bundle-server:
+    main: src/bundle-server.cr
+
+crystal: 0.23.1
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master

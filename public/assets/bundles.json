@@ -1,0 +1,30 @@
+{
+	"bundles": [
+		"com.csrracegam.free",
+		"com.naturalmotion.csrracing",
+		"com.flipkart.android",
+		"com.amazon.mShop.android.shopping",
+		"com.alibaba.aliexpresshd",
+		"com.opera.mini.native",
+		"in.amazon.mShop.android.shopping",
+		"ru.yandex.taxi",
+		"com.smule.singandroid",
+		"com.naver.vapp",
+		"trendyol.com",
+		"com.miniclip.eightballpool",
+		"com.playrix.fishdomdd.gplay",
+		"com.allgoritm.youla",
+		"com.turbochilli.rollingsky",
+		"com.sheypoor.mobile",
+		"com.mobile.legends",
+		"reyhoon.androidapp",
+		"com.bitmango.go.wordcookies",
+		"com.bitmango.go.bunnypopbubble",
+		"com.tencent.warwings2",
+		"com.cmplay.dancingline",
+		"com.miniclip.basketballstars",
+		"com.smallgiantgames.empires",
+		"com.ncsoft.aramipuzzventure",
+		"com.speedbooster.optimizer"
+	]
+}
