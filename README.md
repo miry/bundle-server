@@ -4,11 +4,15 @@ TODO: Write a description here
 
 ## Installation
 
-TODO: Write installation instructions here
+```shell
+$ docker pull miry/bundle-server
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```shell
+$ docker run -p 3000:3000 miry/bundle-server
+```
 
 ## Development
 

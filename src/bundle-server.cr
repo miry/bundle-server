@@ -10,8 +10,12 @@ before_get "/json" do |env|
 end
 
 get "/json" do |env|
-  file = env.params.query["file"]
-  response = File.read("public/assets/#{file}.json")
+  filename = "default"
+  if env.params.query["file"]?
+    filename = env.params.query["file"]
+  end
+  file_path = ::File.join [Kemal.config.public_folder, "assets/", filename + ".json"]
+  response = File.read(file_path)
 end
 
 Kemal.run

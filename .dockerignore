@@ -1,0 +1,6 @@
+.shards/
+bundle-server
+.git/
+.travis.yml
+.editorconfig
+spec/
